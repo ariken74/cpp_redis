@@ -19,7 +19,8 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-
+#define _GLIBCXX_USE_NANOSLEEP
+#include <thread>
 #include <cpp_redis/core/client.hpp>
 #include <cpp_redis/misc/error.hpp>
 #include <cpp_redis/misc/macro.hpp>
